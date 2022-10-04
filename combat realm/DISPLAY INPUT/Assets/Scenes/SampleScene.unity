@@ -2486,12 +2486,9 @@ MonoBehaviour:
   playerName1: 
   playerName2: 
   playerHealth: 0
-  playerOneName: {fileID: 1182660439}
-  playerTwoName: {fileID: 1856949131}
-  playerOneHPUI: {fileID: 0}
-  playerTwoHPUI: {fileID: 0}
-  playerOneHP: 0
-  playerTwoHP: 0
+  p1Name: {fileID: 562514599}
+  p2Name: {fileID: 1226463603}
+  pHealth: {fileID: 816487361}
 --- !u!4 &1892521237
 Transform:
   m_ObjectHideFlags: 0
