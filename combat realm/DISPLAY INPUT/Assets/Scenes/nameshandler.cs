@@ -12,6 +12,8 @@ public class nameshandler : MonoBehaviour
     public string playerName2;
     public int playerHealth;
 
+    public int winner;
+
     public TMP_InputField p1Name;
     public TMP_InputField p2Name;
     public TMP_InputField pHealth;
@@ -37,14 +39,6 @@ public class nameshandler : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
 
 }
 }
