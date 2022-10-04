@@ -383,14 +383,14 @@ public class fightscript : MonoBehaviour
         {
             nameshandler.displayer.winner = 2;
             yield return new WaitForSeconds(3);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 
         if (playerTwoHP <= 0)
         {
             nameshandler.displayer.winner = 1;
             yield return new WaitForSeconds(3);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 
     }

@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/start.unity
+    guid: eb798c23b4ea2794ebbae833ae7b0932
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/fightingbutton.unity
+    guid: 89e553c15d102694dbf0011e7f30df0e
+  - enabled: 1
+    path: Assets/Scenes/vicloser.unity
+    guid: be02c2c11a5a66b4387c471f75df9929
   m_configObjects: {}

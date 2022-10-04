@@ -25,7 +25,7 @@ public class nameshandler : MonoBehaviour
         nameshandler.displayer.playerName1 = p1Name.text;
         nameshandler.displayer.playerName2 = p2Name.text;
         nameshandler.displayer.playerHealth = System.Convert.ToInt32(pHealth.text);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
      private void Awake()
