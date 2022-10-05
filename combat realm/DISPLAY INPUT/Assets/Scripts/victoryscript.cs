@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class victoryscript : MonoBehaviour
 {
@@ -35,4 +38,9 @@ public class victoryscript : MonoBehaviour
             winnerPlayer.text =nameshandler.displayer.playerName2;
         }
     }
+
+     public void NextScene()
+     {
+        SceneManager.LoadScene(4);
+     }
 }

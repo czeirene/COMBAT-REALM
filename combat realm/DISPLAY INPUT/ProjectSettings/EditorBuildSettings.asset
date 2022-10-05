@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/vicloser.unity
     guid: be02c2c11a5a66b4387c471f75df9929
+  - enabled: 1
+    path: Assets/Scenes/Exit.unity
+    guid: b94bc8ec3c771944287344e8aee68a9b
   m_configObjects: {}
