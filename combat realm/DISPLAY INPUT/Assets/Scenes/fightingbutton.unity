@@ -156,12 +156,12 @@ RectTransform:
   m_Children:
   - {fileID: 1374765867}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 218.99997, y: -87}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 445.90002, y: -165}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &221301061
 MonoBehaviour:
@@ -206,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 221301062}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerTwoHighKick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &221301062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,7 +457,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727483214}
-  m_RootOrder: -1
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &421325585
 GameObject:
@@ -472,7 +484,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421325585}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 20ee9ec239ba9534e924e479a4706163, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -489,7 +501,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: file://C:/Users/Czeirene Faye/Downloads/lv_0_20221005082612.mp4
+  m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -661,7 +673,7 @@ GameObject:
   - component: {fileID: 498274862}
   - component: {fileID: 498274861}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: RawImage idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -687,7 +699,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: a707fc09f3cdb1f479b3123fc2ab4d82, type: 2}
+  m_Texture: {fileID: 8400000, guid: 3654a72cfc02ee64185b22b2c6194a8c, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -715,7 +727,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727483214}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -755,12 +767,12 @@ RectTransform:
   m_Children:
   - {fileID: 980075379}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 218.99997, y: -50}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 246.50003, y: -165}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &537604543
 MonoBehaviour:
@@ -805,7 +817,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 537604544}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerTwoLowKick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &537604544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,11 +899,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -257, y: 109}
+  m_AnchoredPosition: {x: -445.86, y: 159}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571310693
@@ -1012,12 +1036,12 @@ RectTransform:
   m_Children:
   - {fileID: 1036246128}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -275, y: 29}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -435.31, y: -122}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &581444722
 MonoBehaviour:
@@ -1062,7 +1086,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 581444723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerOneLowPunch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &581444723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,11 +1168,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 223.99997, y: 59.000015}
+  m_AnchoredPosition: {x: 445.9, y: 215.00002}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &865581506
@@ -1265,33 +1301,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b255b876b1a06c4d8f470dd6017c65b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerOneName: {fileID: 0}
-  playerTwoName: {fileID: 0}
-  playerOneHPUI: {fileID: 0}
-  playerTwoHPUI: {fileID: 0}
-  specialOne: {fileID: 0}
-  specialTwo: {fileID: 0}
+  playerOneName: {fileID: 571310693}
+  playerTwoName: {fileID: 1097180573}
+  playerOneHPUI: {fileID: 1650863390}
+  playerTwoHPUI: {fileID: 865581506}
+  specialOne: {fileID: 1669023731}
+  specialTwo: {fileID: 1158409742}
   playerOneHP: 0
   playerTwoHP: 0
-  idleAnimSr: {fileID: 0}
-  attackSr: {fileID: 0}
-  rawAttack: {fileID: 0}
-  idle: {fileID: 0}
-  P1lowkick: {fileID: 0}
-  P1highkick: {fileID: 0}
-  P1lowpunch: {fileID: 0}
-  P1highpunch: {fileID: 0}
-  P1special: {fileID: 0}
+  idleAnimSr: {fileID: 421325586}
+  attackSr: {fileID: 1418523371}
+  rawAttack: {fileID: 1114387767}
+  idle: {fileID: 32900000, guid: 20ee9ec239ba9534e924e479a4706163, type: 3}
+  P1lowkick: {fileID: 32900000, guid: 90d40747c24dc994994168e9a02cca14, type: 3}
+  P1highkick: {fileID: 32900000, guid: a390705d012ed9a4dac635d6d0d73cac, type: 3}
+  P1lowpunch: {fileID: 32900000, guid: 7a570bf5c96efc54d855f867cefae9b7, type: 3}
+  P1highpunch: {fileID: 32900000, guid: 56a3e6d6689d7894ba6def868b8ca5e8, type: 3}
+  P1special: {fileID: 32900000, guid: 233e34e898a22644ebf1552e3290dbfa, type: 3}
   P2lowkick: {fileID: 32900000, guid: fc3c9c652d3ea7e4b96320ed8fdf75e5, type: 3}
   P2highkick: {fileID: 32900000, guid: 399f2048793ab9145820c1c296052b44, type: 3}
   P2lowpunch: {fileID: 32900000, guid: e66533cc518cdf24387ab088b6dbb1fa, type: 3}
   P2highpunch: {fileID: 32900000, guid: 66fe143e0bad76d4dbf8df6809cf92ae, type: 3}
   P2special: {fileID: 32900000, guid: c489344d55fabea47945cd98cc2c6fb5, type: 3}
-  mp1lowkick: {fileID: 0}
-  mp1highkick: {fileID: 32900000, guid: 20ee9ec239ba9534e924e479a4706163, type: 3}
-  mp1lowpunch: {fileID: 0}
-  mp1highpunch: {fileID: 0}
-  mp1special: {fileID: 0}
+  mp1lowkick: {fileID: 32900000, guid: e1fd707c76a69a84088034458a4717d7, type: 3}
+  mp1highkick: {fileID: 32900000, guid: a07ce914260765a44b36f433c895ef50, type: 3}
+  mp1lowpunch: {fileID: 32900000, guid: 3dc21e8b8682ac040bd3fe294d91fd2c, type: 3}
+  mp1highpunch: {fileID: 32900000, guid: c0a1492e1276cdc418a817a36b392f3a, type: 3}
+  mp1special: {fileID: 32900000, guid: 073432da0fa399646bcf0457acc8f76c, type: 3}
   mp2lowkick: {fileID: 32900000, guid: 1d14b9ce6f7cd014f8538c3ea3ebd064, type: 3}
   mp2highkick: {fileID: 32900000, guid: 0d7e92e72cae2f24e8a958c519bc5c91, type: 3}
   mp2lowpunch: {fileID: 32900000, guid: 210bb1c326965c740b1dae7c9ce0bcc9, type: 3}
@@ -1476,20 +1512,20 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: a707fc09f3cdb1f479b3123fc2ab4d82, type: 2}
+  m_TargetTexture: {fileID: 0}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: file://C:/Users/Czeirene Faye/Downloads/lv_0_20221005082612.mp4
+  m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -1512,7 +1548,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727483214}
-  m_RootOrder: -1
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1036246127
 GameObject:
@@ -1680,11 +1716,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 224, y: 109}
+  m_AnchoredPosition: {x: 445.90002, y: 159}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1097180573
@@ -1784,6 +1820,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097180571}
   m_CullTransparentMesh: 1
+--- !u!1 &1114387767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1114387768}
+  - component: {fileID: 1114387770}
+  - component: {fileID: 1114387769}
+  m_Layer: 5
+  m_Name: RawImage attack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1114387768
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114387767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1727483214}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1114387769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114387767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 8400000, guid: 9daa9ed4fec1b764c921adf58b3cc583, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1114387770
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114387767}
+  m_CullTransparentMesh: 1
 --- !u!1 &1158409740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,12 +1926,12 @@ RectTransform:
   m_Children:
   - {fileID: 1612377842}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 218.99997, y: -126}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 348.7, y: -206.8}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1158409742
 MonoBehaviour:
@@ -1867,7 +1976,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1158409743}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerTwoSpecial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1158409743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2141,12 +2262,12 @@ RectTransform:
   m_Children:
   - {fileID: 1834282297}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277, y: -47}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -435.30997, y: -165}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1420389294
 MonoBehaviour:
@@ -2191,7 +2312,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1420389295}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerOneLowKick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1420389295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2668,12 +2801,12 @@ RectTransform:
   m_Children:
   - {fileID: 1570978753}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -278, y: -84}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -236.6, y: -165}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1625351290
 MonoBehaviour:
@@ -2718,7 +2851,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1625351291}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerOneHighKick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1625351291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2788,11 +2933,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -263, y: 66}
+  m_AnchoredPosition: {x: -445.86, y: 215}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1650863390
@@ -2925,12 +3070,12 @@ RectTransform:
   m_Children:
   - {fileID: 1482337393}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -280, y: -123}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -336.9, y: -206.8}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669023731
 MonoBehaviour:
@@ -2975,7 +3120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1669023732}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerOneSpecial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1669023732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3047,12 +3204,12 @@ RectTransform:
   m_Children:
   - {fileID: 483677769}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 219, y: 26}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 246.5, y: -122}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1697319608
 MonoBehaviour:
@@ -3097,7 +3254,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1697319609}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerTwoLowPunch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1697319609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3213,7 +3382,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -3230,6 +3398,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 498274863}
+  - {fileID: 1114387768}
   - {fileID: 571310692}
   - {fileID: 1097180572}
   - {fileID: 1650863389}
@@ -3422,12 +3591,12 @@ RectTransform:
   m_Children:
   - {fileID: 2067320454}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 218.99997, y: -13}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 445.9, y: -122}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1892252274
 MonoBehaviour:
@@ -3472,7 +3641,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1892252275}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerTwoHighPunch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1892252275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3544,12 +3725,12 @@ RectTransform:
   m_Children:
   - {fileID: 269498307}
   m_Father: {fileID: 1727483214}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -275, y: -10}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -236.6, y: -122}
+  m_SizeDelta: {x: 178.8991, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1999950494
 MonoBehaviour:
@@ -3594,7 +3775,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1999950495}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 971643874}
+        m_TargetAssemblyTypeName: fightscript, Assembly-CSharp
+        m_MethodName: playerOneHighPunch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1999950495
 MonoBehaviour:
   m_ObjectHideFlags: 0
